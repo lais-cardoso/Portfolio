@@ -67,7 +67,7 @@ function Projects() {
                                 <Image src={ConcreteCrack}/>
                                 <ContainerParagraph>
                                     <Paragraph>Algoritmo gerador de imagens artificiais para balanceamento de banco de dados de imagens de classificação de rachaduras com linguagem R.</Paragraph>
-                                    <LinkBody href="https://landing-page-recode-jr.vercel.app/">Acesse o repositório</LinkBody>
+                                    <LinkBody href="https://github.com/lais-cardoso/DAGenerator">Acesse o repositório</LinkBody>
                                 </ContainerParagraph>
                             </Container>
                         </Box>
