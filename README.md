@@ -4,7 +4,7 @@ Desenvolvedora: Laís Cardoso de Medeiros.
 
 ### Tecnologias
 
-React-js e Template Typescript.
+React.js e Template Typescript.
 
 Para executar o código siga as instruções abaixo:
 
