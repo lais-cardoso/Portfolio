@@ -11,7 +11,7 @@ export const LinkHeader = styled.a`
 `
 
 export const Box = styled.div`
-    width: 534px;
+    width: 600px;
     height: 367px;
     display: inline-block;
     border-radius: 4.818px;
@@ -38,7 +38,7 @@ export const Typhograpy = styled.h3`
 
 export const Image = styled.img`
     background-image: url("https://landing-page-recode-jr.vercel.app/");
-    width: 280px;
+    width: 350px;
     height: 240px;
     margin-left: 5%;
 `
@@ -89,10 +89,17 @@ export const LinkBody = styled.a`
     font-weight: 500;
     line-height: 27px;
     letter-spacing: 1px;
-    margin-top: 6%;
-    width: 1440px;
-    height: 1024px;
+    margin-top: 60%;
     cursor: pointer; 
+`
+
+export const Alert= styled.h3`
+    color: #912222;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin-top: 60%;
 `
 
 export const ContainerParagraph = styled.div`
