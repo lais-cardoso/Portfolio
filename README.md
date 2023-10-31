@@ -1,4 +1,4 @@
-#Portfolio - Laís Cardoso de Medeiros
+# Portfolio - Laís Cardoso de Medeiros
 
 Desenvolvedora: Laís Cardoso de Medeiros.
 
