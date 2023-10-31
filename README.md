@@ -1,3 +1,13 @@
+#Portfolio - Laís Cardoso de Medeiros
+
+Desenvolvedora: Laís Cardoso de Medeiros.
+
+### Tecnologias
+
+React-js e Template Typescript.
+
+Para executar o código siga as instruções abaixo:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
