@@ -8,6 +8,7 @@ export const LinkHeader = styled.a`
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.875px;
+    
 `
 
 export const Image =  styled.img`
@@ -55,6 +56,8 @@ export const LinkBody = styled.a`
 export const ContainerHeader = styled.div`
     margin-top: 47px;
     margin-left: 42px;
+    display: flex;
+    justify-content: space-between;
 `
 
 export const ContainerBody = styled.div`
@@ -68,4 +71,13 @@ export const ContainerBody = styled.div`
 export const ContainerSection = styled.div`
     margin-left: 85px;
     
+`
+
+export const IconImage = styled.img`
+    width: 50px;
+    height:50px;
+`
+
+export const Container = styled.div`
+
 `

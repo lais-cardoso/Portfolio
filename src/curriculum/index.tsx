@@ -1,12 +1,16 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-import { LinkHeader, ContainerHeader, Image, Title, Paragraph, ContainerSection, ContainerBody, ContainerMain, Marks } from './styles'
+import { LinkHeader, ContainerHeader, Image, Title, Paragraph, ContainerSection, ContainerBody, ContainerMain, Marks, IconImage, Container } from './styles'
 import ufrbLogo from "../assets/ufrb-logo.jpg"
 import pesquisaLogo from "../assets/pesquisa-logo.jpeg"
 import premiacaoLogo from "../assets/premiacao-logo.jpeg"
 import tecnologias from "../assets/tecnologias.png"
 import eventos from "../assets/eventos.jpeg"
 import contract from '../assets/contract.jpeg'
+import iconGithub from '../assets/iconGithub.png';
+import iconLinkedin from '../assets/linkedin.png';
+
+
 function Curriculum() {
     const navigate = useNavigate();
 
@@ -24,9 +28,17 @@ function Curriculum() {
     return (
         <>
             <ContainerHeader>
-                <LinkHeader onClick={toHome}>Sobre mim</LinkHeader>
-                <LinkHeader onClick={toCurriculum}>Currículo</LinkHeader>
-                <LinkHeader onClick={toProjects}>Projetos</LinkHeader>
+                <Container>
+                    <LinkHeader onClick={toHome}>Sobre mim</LinkHeader>
+                    <LinkHeader onClick={toCurriculum}>Currículo</LinkHeader>
+                    <LinkHeader onClick={toProjects} >Projetos</LinkHeader>
+                </Container>
+
+                <Container>
+                    <LinkHeader href="https://github.com/lais-cardoso"><IconImage src={iconGithub} alt="github-icon" /></LinkHeader>
+                    <LinkHeader href="https://www.linkedin.com/in/lais-cardoso-de-medeiros-enginner"><IconImage src={iconLinkedin} alt="linkedin-icon" /></LinkHeader>
+                </Container>
+
             </ContainerHeader>
 
             <ContainerBody>

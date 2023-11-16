@@ -54,6 +54,8 @@ export const Paragraph = styled.p`
 export const ContainerHeader = styled.div`
     margin-top: 47px;
     margin-left: 42px;
+    display: flex;
+    justify-content: space-between;
 `
 
 export const ContainerBody = styled.div`
@@ -105,4 +107,12 @@ export const Alert= styled.h3`
 export const ContainerParagraph = styled.div`
     display: flex;
     flex-direction: column;
+`
+
+export const IconImage = styled.img`
+    width: 50px;
+    height:50px;
+`
+export const Grid = styled.div`
+
 `

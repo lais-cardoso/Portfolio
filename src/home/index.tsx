@@ -1,7 +1,10 @@
 import React from "react";
-import { LinkHeader, Image, Title, Paragraph, LinkBody, ContainerHeader, ContainerBody, ContainerSection } from './styles'
+import { LinkHeader, Image, Title, Paragraph, LinkBody, ContainerHeader, ContainerBody, ContainerSection, IconImage, Container } from './styles'
 import Perfil from '../assets/perfil.png'
 import { useNavigate } from 'react-router-dom';
+import iconGithub from '../assets/iconGithub.png';
+import iconLinkedin from '../assets/linkedin.png';
+
 
 function Home() {
     const navigate = useNavigate();
@@ -21,9 +24,17 @@ function Home() {
     return (
         <>
             <ContainerHeader>
-                <LinkHeader onClick={toHome}>Sobre mim</LinkHeader>
-                <LinkHeader onClick={toCurriculum}>Currículo</LinkHeader>
-                <LinkHeader onClick={toProjects} >Projetos</LinkHeader>
+                <Container>
+                    <LinkHeader onClick={toHome}>Sobre mim</LinkHeader>
+                    <LinkHeader onClick={toCurriculum}>Currículo</LinkHeader>
+                    <LinkHeader onClick={toProjects} >Projetos</LinkHeader>
+                </Container>
+
+                <Container>
+                    <LinkHeader href="https://github.com/lais-cardoso"><IconImage src={iconGithub} alt="github-icon" /></LinkHeader>
+                    <LinkHeader href="https://www.linkedin.com/in/lais-cardoso-de-medeiros-enginner"><IconImage src={iconLinkedin} alt="linkedin-icon" /></LinkHeader>
+                </Container>
+
             </ContainerHeader>
 
             <ContainerBody>

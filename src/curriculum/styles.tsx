@@ -13,6 +13,8 @@ export const LinkHeader = styled.a`
 export const ContainerHeader = styled.div`
     margin-top: 47px;
     margin-left: 42px;
+    display: flex;
+    justify-content: space-between;
 `
 
 export const Image = styled.img`
@@ -55,4 +57,12 @@ export const ContainerSection = styled.div`
     display: flex;
     flex-direction: column;
     margin-left: 85px;
+`
+export const IconImage = styled.img`
+    width: 50px;
+    height:50px;
+`
+
+export const Container = styled.div`
+
 `

@@ -1,10 +1,13 @@
 import React from "react";
-import { LinkHeader, ContainerHeader, ContainerBody, ContainerMain, ContainerSection, Box, Typhograpy, Image, Paragraph, Container, LinkBody, ContainerParagraph, Alert } from './styles'
+import { LinkHeader, ContainerHeader, ContainerBody, ContainerMain, ContainerSection, Box, Typhograpy, Image, Paragraph, Container, LinkBody, ContainerParagraph, Alert, IconImage, Grid  } from './styles'
 import { useNavigate } from 'react-router-dom';
 import LandingPage from "../assets/landing-page-recode-jr.jpeg"
 import ConcreteCrack from "../assets/concreteCrack.png"
 import Prograd from "../assets/prograd-image.jpeg"
 import PandIA from "../assets/pandIA.jpeg"
+import iconGithub from '../assets/iconGithub.png';
+import iconLinkedin from '../assets/linkedin.png';
+
 
 function Projects() {
     const navigate = useNavigate();
@@ -23,9 +26,17 @@ function Projects() {
     return (
         <>
             <ContainerHeader>
-                <LinkHeader onClick={toHome}>Sobre mim</LinkHeader>
-                <LinkHeader onClick={toCurriculum}>Currículo</LinkHeader>
-                <LinkHeader onClick={toProjects} >Projetos</LinkHeader>
+                <Grid>
+                    <LinkHeader onClick={toHome}>Sobre mim</LinkHeader>
+                    <LinkHeader onClick={toCurriculum}>Currículo</LinkHeader>
+                    <LinkHeader onClick={toProjects} >Projetos</LinkHeader>
+                </Grid>
+
+                <Grid>
+                    <LinkHeader href="https://github.com/lais-cardoso"><IconImage src={iconGithub} alt="github-icon" /></LinkHeader>
+                    <LinkHeader href="https://www.linkedin.com/in/lais-cardoso-de-medeiros-enginner"><IconImage src={iconLinkedin} alt="linkedin-icon" /></LinkHeader>
+                </Grid>
+
             </ContainerHeader>
 
             <ContainerBody>
@@ -64,7 +75,7 @@ function Projects() {
                         <Box>
                             <Typhograpy>DAGenerator</Typhograpy>
                             <Container>
-                                <Image src={ConcreteCrack}/>
+                                <Image src={ConcreteCrack} />
                                 <ContainerParagraph>
                                     <Paragraph>Algoritmo gerador de imagens artificiais para balanceamento de banco de dados de imagens de classificação de rachaduras com linguagem R.</Paragraph>
                                     <LinkBody href="https://github.com/lais-cardoso/DAGenerator">Acesse o repositório</LinkBody>
