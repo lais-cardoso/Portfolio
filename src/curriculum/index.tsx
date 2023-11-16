@@ -6,7 +6,7 @@ import pesquisaLogo from "../assets/pesquisa-logo.jpeg"
 import premiacaoLogo from "../assets/premiacao-logo.jpeg"
 import tecnologias from "../assets/tecnologias.png"
 import eventos from "../assets/eventos.jpeg"
-
+import contract from '../assets/contract.jpeg'
 function Curriculum() {
     const navigate = useNavigate();
 
@@ -50,7 +50,8 @@ function Curriculum() {
                     </ContainerSection>
                     <ContainerSection>
                         <Title>Tecnologias</Title>
-                        <Paragraph>Atualmente estou me aperfeiçoando nas seguintes tecnologias: HTML, CSS, Material UI Design, React.js, Node.js, Express, SQL, PostgreSQL, Git, Java, R, Python, C, thunderClient, PostBird, Insomnia, MongoDBCompass, MongoDB, Docker. </Paragraph>
+                        <Marks>Uso frequente: HTML, CSS, Material UI Design, React.js.</Marks>
+                        <Marks>Atualmente estou buscando aperfeiçoamento: Node.js, Express, SQL, PostgreSQL, Git, Java, R, Python, C/C++, thunderClient, PostBird, Insomnia, MongoDBCompass, MongoDB, Docker.</Marks>
                     </ContainerSection>
 
                 </ContainerMain>
@@ -91,6 +92,17 @@ function Curriculum() {
                     </ContainerSection>
                     <ContainerSection>
                         <Image src={eventos} />
+                    </ContainerSection>
+                </ContainerMain>
+
+                <ContainerMain>
+                    <ContainerSection>
+                        <Image src={contract} />
+                    </ContainerSection>
+                    <ContainerSection>
+                        <Title>Experiência</Title>
+                        <Marks>Recode Jr (08/2020 - 06/2023)</Marks>
+                        <Marks>EcoRecitec (11/2023 - Presente)</Marks>
                     </ContainerSection>
                 </ContainerMain>
 
