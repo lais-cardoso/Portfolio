@@ -44,7 +44,7 @@ function Home() {
                 <ContainerSection>
                     <Title>Sobre mim</Title>
 
-                    <Paragraph>Laís Cardoso de Medeiros, uma Desenvolvedora Web e Pesquisadora na Área Neural e de Machine Learning em constante aprendizado. Atuo como Desenvoldedora Front-End na Recode Jr, trabalho com liderança sendo Capitã da Equipe de Simulação 2D da UFRB e possuo experiência em ensino de programação.</Paragraph>
+                    <Paragraph>Laís Cardoso de Medeiros, uma Desenvolvedora Web e Pesquisadora na Área Neural e de Machine Learning em constante aprendizado. Atuo como Desenvoldedora FullStack na EcoRecitec, trabalho com liderança sendo Capitã da Equipe de Simulação 2D da UFRB e possuo experiência em ensino de programação.</Paragraph>
 
                     <LinkBody href="https://drive.google.com/file/d/1iCG39_1rXDcxF2WeO4ES7uf1gU8Jm1n2/view?usp=sharing">Saiba mais</LinkBody>
                 </ContainerSection>
